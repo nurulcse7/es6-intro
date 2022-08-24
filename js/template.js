@@ -17,9 +17,14 @@ fourth line of code`;
 
 const a = 20; 
 const b = 30;
-const nums = [78, 98, 45, 12, 6, 444]
+const numbers = [78, 98, 45, 12, 6, 444]
 const summary = 'sum of: ' + a + ' and ' + b + ' is: '+ (a+b);
-// console.log(summary)
+// console.log(summary) // print: sum of: 20 and 30 is: 50
 
 const newSummary = `sum of ${a} and ${b} is: ${a+b}`;
-console.log(newSummary)
+// console.log(newSummary) // print: sum of: 20 and 30 is: 50
+
+
+//Quiz 7
+// const division = num1, num2 => console.log(num1 /num2);
+// division(4,2) // SyntaxError: Missing initializer in const declaration

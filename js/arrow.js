@@ -28,7 +28,6 @@ const add5 = function(first, second){
 
 // arrow function
 const add6 = (first, second) => first + second;
-
 const result = add6(10, 20);
 console.log(result);
 
