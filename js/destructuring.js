@@ -15,14 +15,14 @@ const { phone } = fish;
 
 
 const { age, name } = { name: 'Almas', age: 56, profession: 'makeup artist' }
-console.log(age);
+// console.log(age);
 
 const { address } = fish;
-console.log(address);
+// console.log(address);
 
 // array destructuring
 const [first, another] = [44, 99, 88, 456];
-console.log(first, another);
+// console.log(first, another);
 
 const nayoks = ['sakib', 'bappi', 'raj'];
 const [king, lost, notun] = nayoks;
@@ -33,4 +33,16 @@ function getNames() {
 }
 
 const [baba, chacha] = getNames();
-console.log(chacha, baba);
+// console.log(chacha, baba);
+
+
+
+// Quiz 12
+const player = { 
+    name: { 
+        firstName: "Mashrafe", 
+        lastName: "Murtaza" }, 
+        age: 38,
+    };
+console.log(player.firstName); // undefined 
+console.log(player.name.firstName);  // Mashrafe

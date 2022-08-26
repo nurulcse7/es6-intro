@@ -9,7 +9,7 @@ const multiply = (x, y, z) => x * y * z;
 const result1 = multiply(3, 5, 2);
 console.log(result1) // 30
 
-// Answer 02.1 first way (every single line show)
+// Answer 02
 const myIntroduce = `I am a developer
 I love code
 I love to eat Chinese`;
